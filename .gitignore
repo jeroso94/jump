@@ -1,0 +1,34 @@
+#
+# BACKEND
+#
+
+jumpBackend/node_modules/
+
+
+#
+# FRONTEND
+#
+
+.DS_Store
+jumpFrontend/node_modules
+jumpFrontend/dist
+
+
+# local env files
+jumpFrontend/.env.local
+jumpFrontend/.env.*.local
+
+# Log files
+jumpFrontend/npm-debug.log*
+jumpFrontend/yarn-debug.log*
+jumpFrontend/yarn-error.log*
+jumpFrontend/pnpm-debug.log*
+
+# Editor directories and files
+jumpFrontend/.idea
+jumpFrontend/.vscode
+jumpFrontend/*.suo
+jumpFrontend/*.ntvs*
+jumpFrontend/*.njsproj
+jumpFrontend/*.sln
+jumpFrontend/*.sw?
